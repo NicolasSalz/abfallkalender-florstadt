@@ -13,7 +13,7 @@ Aufruf:
 import argparse
 import json
 import re
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -112,7 +112,7 @@ def scrape(ort: str, headless: bool = True, filter_typen=None):
 def schreibe_ics(termine, ort, pfad, erinnerung_uhr=18):
     zeilen = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//abfall-florstadt//DE",
               f"X-WR-CALNAME:Abfall {ort}", "CALSCALE:GREGORIAN"]
-    stamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     # Berechne relative Stunden vor Event-Start (00:00)
     stunden_davor = 24 - erinnerung_uhr
     for d, art in termine:

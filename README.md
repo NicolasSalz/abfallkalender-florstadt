@@ -22,12 +22,68 @@ Python-Skript zum Auslesen des Abfallkalenders der Stadt Florstadt und zum Expor
 <!-- calendar-downloads:start -->
 Die bereits erzeugten Kalender können direkt heruntergeladen werden:
 
-| Jahr | Ort | Mülltypen | Erinnerung | iCalendar | JSON |
-|---|---|---|---|---|---|
-| 2026 | Nieder-Florstadt | Restmüll, Blaue Tonne, Gelbe Tonne | 18:00 Uhr am Vortag | [ICS herunterladen](calendar/abfall_26_nflo_RBG_18h.ics) | [JSON herunterladen](calendar/abfall_26_nflo_RBG_18h.json) |
-| 2026 | Nieder-Florstadt | Restmüll, Blaue Tonne, Gelbe Tonne, Kompost/Bioabfall | 18:00 Uhr am Vortag | [ICS herunterladen](calendar/abfall_26_nflo_RBGK_18h.ics) | [JSON herunterladen](calendar/abfall_26_nflo_RBGK_18h.json) |
-| 2026 | Stammheim | Restmüll, Blaue Tonne, Gelbe Tonne | 18:00 Uhr am Vortag | [ICS herunterladen](calendar/abfall_26_stam_RBG_18h.ics) | [JSON herunterladen](calendar/abfall_26_stam_RBG_18h.json) |
-| 2026 | Stammheim | Restmüll, Blaue Tonne, Gelbe Tonne, Kompost/Bioabfall | 18:00 Uhr am Vortag | [ICS herunterladen](calendar/abfall_26_stam_RBGK_18h.ics) | [JSON herunterladen](calendar/abfall_26_stam_RBGK_18h.json) |
+<table>
+  <thead>
+    <tr>
+      <th>Jahr</th>
+      <th>Ort</th>
+      <th>Mülltypen</th>
+      <th>Erinnerung</th>
+      <th>iCalendar</th>
+      <th>JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Florstadt</td>
+      <td>Restmüll, Blaue Tonne, Gelbe Tonne</td>
+      <td>18:00 Uhr am Vortag</td>
+      <td><a href="calendar/abfall_26_nflo_RBG_18h.ics">ICS herunterladen</a></td>
+      <td><a href="calendar/abfall_26_nflo_RBG_18h.json">JSON herunterladen</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Florstadt</td>
+      <td>Restmüll, Blaue Tonne, Gelbe Tonne, Kompost/Bioabfall</td>
+      <td>18:00 Uhr am Vortag</td>
+      <td><a href="calendar/abfall_26_nflo_RBGK_18h.ics">ICS herunterladen</a></td>
+      <td><a href="calendar/abfall_26_nflo_RBGK_18h.json">JSON herunterladen</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Mockstadt</td>
+      <td>Restmüll, Blaue Tonne, Gelbe Tonne</td>
+      <td>18:00 Uhr am Vortag</td>
+      <td><a href="calendar/abfall_26_nimo_RBG_18h.ics">ICS herunterladen</a></td>
+      <td><a href="calendar/abfall_26_nimo_RBG_18h.json">JSON herunterladen</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Mockstadt</td>
+      <td>Restmüll, Blaue Tonne, Gelbe Tonne, Kompost/Bioabfall</td>
+      <td>18:00 Uhr am Vortag</td>
+      <td><a href="calendar/abfall_26_nimo_RBGK_18h.ics">ICS herunterladen</a></td>
+      <td><a href="calendar/abfall_26_nimo_RBGK_18h.json">JSON herunterladen</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Stammheim</td>
+      <td>Restmüll, Blaue Tonne, Gelbe Tonne</td>
+      <td>18:00 Uhr am Vortag</td>
+      <td><a href="calendar/abfall_26_stam_RBG_18h.ics">ICS herunterladen</a></td>
+      <td><a href="calendar/abfall_26_stam_RBG_18h.json">JSON herunterladen</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Stammheim</td>
+      <td>Restmüll, Blaue Tonne, Gelbe Tonne, Kompost/Bioabfall</td>
+      <td>18:00 Uhr am Vortag</td>
+      <td><a href="calendar/abfall_26_stam_RBGK_18h.ics">ICS herunterladen</a></td>
+      <td><a href="calendar/abfall_26_stam_RBGK_18h.json">JSON herunterladen</a></td>
+    </tr>
+  </tbody>
+</table>
 <!-- calendar-downloads:end -->
 
 > [!NOTE]
@@ -218,12 +274,68 @@ Python script that reads waste collection appointments for Florstadt, Germany, a
 <!-- calendar-downloads-en:start -->
 Pre-generated calendars:
 
-| Year | Location | Waste types | Reminder | iCalendar | JSON |
-|---|---|---|---|---|---|
-| 2026 | Nieder-Florstadt | Residual waste, Blue bin, Yellow bin | 18:00 on the previous day | [Download ICS](calendar/abfall_26_nflo_RBG_18h.ics) | [Download JSON](calendar/abfall_26_nflo_RBG_18h.json) |
-| 2026 | Nieder-Florstadt | Residual waste, Blue bin, Yellow bin, Compost/bio waste | 18:00 on the previous day | [Download ICS](calendar/abfall_26_nflo_RBGK_18h.ics) | [Download JSON](calendar/abfall_26_nflo_RBGK_18h.json) |
-| 2026 | Stammheim | Residual waste, Blue bin, Yellow bin | 18:00 on the previous day | [Download ICS](calendar/abfall_26_stam_RBG_18h.ics) | [Download JSON](calendar/abfall_26_stam_RBG_18h.json) |
-| 2026 | Stammheim | Residual waste, Blue bin, Yellow bin, Compost/bio waste | 18:00 on the previous day | [Download ICS](calendar/abfall_26_stam_RBGK_18h.ics) | [Download JSON](calendar/abfall_26_stam_RBGK_18h.json) |
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Location</th>
+      <th>Waste types</th>
+      <th>Reminder</th>
+      <th>iCalendar</th>
+      <th>JSON</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Florstadt</td>
+      <td>Residual waste, Blue bin, Yellow bin</td>
+      <td>18:00 on the previous day</td>
+      <td><a href="calendar/abfall_26_nflo_RBG_18h.ics">Download ICS</a></td>
+      <td><a href="calendar/abfall_26_nflo_RBG_18h.json">Download JSON</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Florstadt</td>
+      <td>Residual waste, Blue bin, Yellow bin, Compost/bio waste</td>
+      <td>18:00 on the previous day</td>
+      <td><a href="calendar/abfall_26_nflo_RBGK_18h.ics">Download ICS</a></td>
+      <td><a href="calendar/abfall_26_nflo_RBGK_18h.json">Download JSON</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Mockstadt</td>
+      <td>Residual waste, Blue bin, Yellow bin</td>
+      <td>18:00 on the previous day</td>
+      <td><a href="calendar/abfall_26_nimo_RBG_18h.ics">Download ICS</a></td>
+      <td><a href="calendar/abfall_26_nimo_RBG_18h.json">Download JSON</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Nieder-Mockstadt</td>
+      <td>Residual waste, Blue bin, Yellow bin, Compost/bio waste</td>
+      <td>18:00 on the previous day</td>
+      <td><a href="calendar/abfall_26_nimo_RBGK_18h.ics">Download ICS</a></td>
+      <td><a href="calendar/abfall_26_nimo_RBGK_18h.json">Download JSON</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Stammheim</td>
+      <td>Residual waste, Blue bin, Yellow bin</td>
+      <td>18:00 on the previous day</td>
+      <td><a href="calendar/abfall_26_stam_RBG_18h.ics">Download ICS</a></td>
+      <td><a href="calendar/abfall_26_stam_RBG_18h.json">Download JSON</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Stammheim</td>
+      <td>Residual waste, Blue bin, Yellow bin, Compost/bio waste</td>
+      <td>18:00 on the previous day</td>
+      <td><a href="calendar/abfall_26_stam_RBGK_18h.ics">Download ICS</a></td>
+      <td><a href="calendar/abfall_26_stam_RBGK_18h.json">Download JSON</a></td>
+    </tr>
+  </tbody>
+</table>
 <!-- calendar-downloads-en:end -->
 
 > [!NOTE]
